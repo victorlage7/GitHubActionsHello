@@ -12,8 +12,8 @@ jobs:
       name: Executando job de teste
       runs-on: ubuntu-latest
       steps:
-      #- name: CheckOut code
-      #- uses: actions/checkout@v2
+      - name: CheckOut code
+        uses: actions/checkout@v2
 
       - name: Excecutando um comando Simples
         run: echo "Olá, mundo!"
