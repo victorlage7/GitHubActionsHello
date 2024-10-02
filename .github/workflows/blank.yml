@@ -2,7 +2,9 @@ name: Work FLow Hello, world!
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
+      - modulo3
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
